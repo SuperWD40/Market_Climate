@@ -3,7 +3,7 @@ import seaborn as sns
 import numpy as np
 import tempfile
 
-def market_climate(df, x_value, y_value, show=True):
+def mc(df, x_value, y_value, show=True):
 
     plt.figure(figsize=(10, 10))
 
